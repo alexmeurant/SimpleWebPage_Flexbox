@@ -162,7 +162,9 @@ footer {
     }
     .primary,
     .secondary {
-        width: 40%;
+        -webkit-box-flex: .4;
+        -ms-flex-positive: .4;
+        flex-grow: .4;
         margin-top: 0;
     }
     .secondary {
