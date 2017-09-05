@@ -2,13 +2,66 @@
           Global styles 
 -------------------------------------------------------- */
 
-*{
+* {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 html,
-body{
+body {
+    margin: 0;
+    padding: 0;
     font-family: 'Varela Round', sans-serif;
     font-size: 16px;
+}
+
+.container {
+    width: 90%;
+    max-width: 960px;
+}
+
+h1,
+h2 {
+    color: #093a58;
+    font-size: 1.35rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* ------------------------------------------------------
+          Navigation 
+-------------------------------------------------------- */
+
+.main-header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.main-nav {
+    padding: 0 0;
+}
+
+ul li, .name {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.main-nav a {
+    color: #3acec2;
+    font-size: .95em;
+    text-transform: uppercase;
 }
