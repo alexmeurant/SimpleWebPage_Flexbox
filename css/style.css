@@ -88,7 +88,7 @@ ul li,
     margin-bottom: 3rem;
 }
 
-.banner img{
+.banner img {
     width: 50%;
 }
 
@@ -102,4 +102,26 @@ ul li,
 /* ------------------------------------------------------
           Main content 
 -------------------------------------------------------- */
+
+main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+main img{
+    border-radius: 0.3rem;
+}
+
+.primary,
+.secondary,
+.tertiary {
+    width: 90%;
+    margin: auto;
+}
+
 
