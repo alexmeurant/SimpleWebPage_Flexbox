@@ -114,7 +114,7 @@ main {
     flex-direction: column;
 }
 
-main img{
+main img {
     border-radius: 0.3rem;
 }
 
@@ -125,17 +125,49 @@ main img{
     margin: auto;
 }
 
-main p{
+main p {
     margin-bottom: 1.8rem;
     line-height: 1.5rem;
 }
+
 
 /* ------------------------------------------------------
           Footer 
 -------------------------------------------------------- */
 
-footer{
+footer {
     text-align: center;
     background-color: #d9e4ea;
     padding: 1.5rem 0;
+}
+
+
+/* ------------------------------------------------------
+          Media Queries
+-------------------------------------------------------- */
+
+@media (min-width: 769px) {
+    main {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    }
+    .main-header ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .primary,
+    .secondary {
+        width: 40%;
+        margin-top: 0;
+    }
+    .secondary {
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1;
+    }
 }
