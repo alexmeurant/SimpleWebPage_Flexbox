@@ -52,9 +52,11 @@ a {
 
 .main-nav {
     padding: 0 0;
+    margin-top: 0;
 }
 
-ul li, .name {
+ul li,
+.name {
     list-style-type: none;
     text-align: center;
     padding: 10px 15px;
@@ -62,6 +64,41 @@ ul li, .name {
 
 .main-nav a {
     color: #3acec2;
-    font-size: .95em;
+    font-size: .95rem;
     text-transform: uppercase;
+}
+
+
+/* ------------------------------------------------------
+          Banner 
+-------------------------------------------------------- */
+
+.banner {
+    color: #fff;
+    background: #3acec2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    padding: 3.2rem 0;
+    margin-bottom: 3rem;
+}
+
+.banner img{
+    width: 50%;
+}
+
+.headline {
+    font-size: 2rem;
+    color: inherit;
+    margin: 2rem 0 0 0;
 }
