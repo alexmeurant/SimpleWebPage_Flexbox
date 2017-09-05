@@ -164,11 +164,16 @@ footer {
     }
     .primary,
     .secondary {
+<<<<<<< HEAD
         -webkit-box-flex: 1;
         -ms-flex: 1 50%;
         flex: 1 50%;
         padding-right: 1em;
         padding-left: 1em;
+=======
+        width: 40%;
+        margin-top: 0;
+>>>>>>> parent of 6c8e235... Changed width by flex-grow
     }
     .secondary {
         margin-top: 0;
