@@ -129,4 +129,12 @@ main p{
     line-height: 1.5rem;
 }
 
+/* ------------------------------------------------------
+          Footer 
+-------------------------------------------------------- */
 
+footer{
+    text-align: center;
+    background-color: #d9e4ea;
+    padding: 1.5rem 0;
+}
