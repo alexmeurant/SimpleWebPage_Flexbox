@@ -89,7 +89,8 @@ ul li,
 }
 
 .banner img {
-    width: 50%;
+    width: 190px;
+    max-width: 100%;
 }
 
 .headline {
