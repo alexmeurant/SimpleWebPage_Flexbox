@@ -149,7 +149,7 @@ footer {
 @media (min-width: 769px) {
     main {
         padding-right: 2em;
-        padding-left: 2em; 
+        padding-left: 2em;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -164,16 +164,14 @@ footer {
     }
     .primary,
     .secondary {
-<<<<<<< HEAD
-        -webkit-box-flex: 1;
+        <<<<<<< HEAD -webkit-box-flex: 1;
         -ms-flex: 1 50%;
         flex: 1 50%;
         padding-right: 1em;
         padding-left: 1em;
-=======
-        width: 40%;
+        =======width: 40%;
         margin-top: 0;
->>>>>>> parent of 6c8e235... Changed width by flex-grow
+        >>>>>>>parent of 6c8e235... Changed width by flex-grow
     }
     .secondary {
         margin-top: 0;
@@ -181,11 +179,44 @@ footer {
         -ms-flex-order: -1;
         order: -1;
     }
-    .tertiary{
+    .tertiary {
         -webkit-box-flex: 1;
         -ms-flex: 1;
         flex: 1;
         padding-right: 1em;
         padding-left: 1em;
+    }
+}
+
+
+/*--------------------------------------------------------*/
+
+@media (min-width: 1025px) {
+    .main-header {
+        width: 80%;
+        margin: auto;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+    }
+    .main-nav {
+        margin-bottom: 0;
+    }
+    .tagline{
+        font-size: 1.5rem;
+    }
+    main {
+        align-items: center;
+        max-width: 1150px;
+        margin: auto;
+    }
+    .primary,
+    .secondary,
+    .tertiary {
+        flex-basis: 0;
+        margin-top: 0;
+    }
+    .primary {
+        flex: 1 20%;
     }
 }
